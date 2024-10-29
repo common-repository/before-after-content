@@ -1,0 +1,79 @@
+/*==================================================
+ * After Content Css
+ * ===============================================*/
+
+._bac_box {
+    display: block;
+    height: auto;
+    margin: 0 auto;
+    padding: 30px;
+    width: 90%;
+}
+
+._bac_effect1 {
+    -webkit-box-shadow: 1px 0 17px -8px #777;
+    -moz-box-shadow: 1px 0 17px -8px #777;
+    box-shadow: 1px 0 17px -8px #777;
+}
+
+._bac_after_img {
+    padding: 15px 0;
+}
+
+._bac_after_img img {
+    display: block;
+    height: auto;
+    margin: 0 auto;
+    width: auto;
+}
+
+._bac_active {
+    pointer-events: none;
+    cursor: default;
+} 
+
+
+
+/*==================================================
+ * Before Content Css
+ * ===============================================*/
+
+._bac_box_a {
+    display: block;
+    height: auto;
+    margin: 0 auto;
+    padding: 30px;
+    width: 90%;
+}
+
+._bac_effect1_a {
+    -webkit-box-shadow: 1px 0 17px -8px #777;
+    -moz-box-shadow: 1px 0 17px -8px #777;
+    box-shadow: 1px 0 17px -8px #777;
+}
+
+._bac_after_img_a {
+    padding: 15px 0;
+}
+
+._bac_after_img_a img {
+    display: block;
+    height: auto;
+    margin: 0 auto;
+    width: auto;
+}
+
+._bac_active_a {
+    pointer-events: none;
+    cursor: default;
+}
+
+@media only screen and (max-width: 980px) {
+    ._bac_box {
+        width: 80%;
+    }
+
+    ._bac_box_a {
+        width: 80%;
+    }
+}
